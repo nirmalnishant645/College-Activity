@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Buy</title>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper row1">
+        <header id="header" class="clear">
+            <div id="hgroup">
+                <img src="img/icon_mango.png">
+                <h1><a href="index.html">Mangoes</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Introduction</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="how-to-eat.html">How To Eat</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="how-to-get.html">How To Get Pulp</a></li>
+                    <li><a href="benefits.html">Benefits</a></li>
+                    <li><a href="buy.html">Buy</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- content -->
+    <div class="wrapper row2">
+        <div id="container" class="clear">
+            <!-- Cover -->
+            <section id="cover">
+                <img src="img/buy.jpg" width="100%" height="100%">
+            </section>
+            <!-- main content -->
+            <div id="homepage">
+                <!-- Introduction -->
+                <section id="intro" class="last clear">
+                    <article>
+                        <h2>Buy Mangoes</h2>
+                        <div class="form-group">
+                            <form action="" name="buy-mango">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:4">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email">
+                                <input type="text" class="form-control" name="phone_number" id="phone_number" placeholder="Phone Number" data-rule="minlen:6" data-msg="Please enter a valid Phone Number">
+                                <select name="type" id="mango_type" class="form-control" data-msg="Please select a type of mango">
+                                    <option value="alphonso">Alphonso</option>
+                                    <option value="kesar">Kesar</option>
+                                    <option value="dasheri">Dasheri</option>
+                                    <option value="himsagar">Himsagar</option>
+                                    <option value="chausa">Chausa</option>
+                                    <option value="badami">Badami</option>
+                                    <option value="safeda">Safeda</option>
+                                    <option value="langra">Langra</option>
+                                    <option value="totapuri">Totapuri</option>
+                                    <option value="neelam">Neelam</option>
+                                </select>
+                                <textarea class="form-control" name="address" rows="3" data-rule="required" data-msg="Please write your address" placeholder="Address"></textarea>
+                                <button type="submit" class="submit_btn" title="Submit">Place Order Request</button>
+                            </form>
+                        </div>
+                    </article>
+                </section>
+                <!-- / Introduction -->
+            </div>
+            <!-- / content body -->
+        </div>
+    </div>
+    <!-- Footer -->
+    <!-- Copyright -->
+    <div class="wrapper row3">
+        <footer id="copyright" class="clear">
+            <p class="fl_left">Name: Nishant Nirmal - Roll: 628</p>
+            <p class="fl_right">MSc Computer Application</p>
+        </footer>
+    </div>
+</body>
+
+</html>
