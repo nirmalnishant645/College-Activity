@@ -271,6 +271,11 @@ select {
 #container #homepage #highlights article figure h2 {
     font-size: 14px;
     font-weight: bold;
+    color: #000000;
+}
+
+#container #homepage #highlights article figure p {
+    color: #000000;
 }
 
 #container #homepage #intro article figure img {
