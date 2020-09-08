@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog SYSTEM "Employees.dtd">
+
+<employees>
+ <employee>
+ <employeeno>101</employeeno>
+ <employeename>Nishant Nirmal</employeename>
+ <deptname>IT</deptname>
+ <salary>50000</salary>
+ <yearofjoin>2020</yearofjoin>
+ </employee>
+ <employee>
+ <employeeno>102</employeeno>
+ <employeename>Virat Kohli</employeename>
+ <deptname>Sports</deptname>
+ <salary>500000</salary>
+ <yearofjoin>2009</yearofjoin>
+ </employee>
+ <employee>
+ <employeeno>103</employeeno>
+ <employeename>Shah Rukh Khan</employeename>
+ <deptname>Entertainment</deptname>
+ <salary>800000</salary>
+ <yearofjoin>1992</yearofjoin>
+ </employee>
+ <employee>
+ <employeeno>104</employeeno>
+ <employeename>Priyanka Mishra</employeename>
+ <deptname>Teaching</deptname>
+ <salary>40000</salary>
+ <yearofjoin>2013</yearofjoin>
+ </employee>
+ <employee>
+ <employeeno>105</employeeno>
+ <employeename>Himanshu Shekher</employeename>
+ <deptname>IT</deptname>
+ <salary>45000</salary>
+ <yearofjoin>2018</yearofjoin>
+ </employee>
+</employees>
